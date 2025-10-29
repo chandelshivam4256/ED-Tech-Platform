@@ -1,5 +1,5 @@
 //const BASE_URL = import.meta.env.VITE_APP_BASE_URL;// backend url
-const BASE_URL = "http://localhost:3000/api/v1";
+const BASE_URL = import.meta.env.VITE_APP_BACKEND_BASE_URL;
 // const BASE_URL = "https://ed-tech-platform-3fgs.onrender.com/api/v1";
 
 // AUTH ENDPOINTS
